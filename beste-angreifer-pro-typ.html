@@ -114,6 +114,10 @@
         .type-dark h2 { background: #705848; }
         .type-fairy h2 { background: #ee99ac; color: #1a1a1a; }
 
+        .limited {
+            color: #2e55b0;
+        }
+
         @media print {
             body { padding: 0; }
             .type-section { page-break-inside: avoid; }
@@ -125,14 +129,18 @@
 <h1>Beste Angreifer pro Typ – Pokémon GO</h1>
 <p class="subtitle">Top 20 pro Typ · Quelle: db.pokemongohub.net · Konfiguration: nur "Allow mixed movesets" aktiv · Stand: 18.02.2026</p>
 
+<h2>System zur benennung</h2>
+<p>Die Benennung setzt sich aus drei Parametern zusammen. S für Stats (IV Werte), R für Rang in der Tierliste und O für Attacken sind optimiert.</p>
+<p>Beispiel: Atk 15, Def 13, HP 13, Rang 14, Attacken Optimiert -> s41-r14-o</p>
+
 <!-- NORMAL -->
 <div class="type-section type-normal">
 <h2>Normal</h2>
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Regigigas</td><td>Kraftreserve</td><td>Gigastoß</td><td>4913</td></tr>
-<tr><td>2</td><td>Meloetta (Gesangsform)</td><td>Ruckzuckhieb</td><td>Hyperstrahl</td><td>4490</td></tr>
+<tr class="limited"><td>1</td><td>Regigigas</td><td>Kraftreserve</td><td>Gigastoß</td><td>4913</td></tr>
+<tr class="limited"><td>2</td><td>Meloetta (Gesangsform)</td><td>Ruckzuckhieb</td><td>Hyperstrahl</td><td>4490</td></tr>
 <tr><td>3</td><td>Porygon-Z</td><td>Zielschuss</td><td>Hyperstrahl</td><td>3693</td></tr>
 <tr><td>4</td><td>Ursaluna</td><td>Tackle</td><td>Sternschauer</td><td>4358</td></tr>
 <tr><td>5</td><td>Kosturso</td><td>Tackle</td><td>Stampfer</td><td>3524</td></tr>
@@ -161,18 +169,18 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Keldeo (Resolutform)</td><td>Fußkick</td><td>Mystoschwert</td><td>4181</td></tr>
+<tr class="limited"><td>1</td><td>Keldeo (Resolutform)</td><td>Fußkick</td><td>Mystoschwert</td><td>4181</td></tr>
 <tr><td>2</td><td>Lohgock</td><td>Konter</td><td>Aurasphäre</td><td>3219</td></tr>
-<tr><td>3</td><td>Wulaosu (Fokussierter Stil)</td><td>Konter</td><td>Wuchtschlag</td><td>4077</td></tr>
+<tr class="limited"><td>3</td><td>Wulaosu (Fokussierter Stil)</td><td>Konter</td><td>Wuchtschlag</td><td>4077</td></tr>
 <tr><td>4</td><td>Lucario</td><td>Konter</td><td>Aurasphäre</td><td>3056</td></tr>
 <tr><td>5</td><td>Meistagrif</td><td>Konter</td><td>Wuchtschlag</td><td>3773</td></tr>
-<tr><td>6</td><td>Marshadow</td><td>Konter</td><td>Nahkampf</td><td>4217</td></tr>
+<tr class="limited"><td>6</td><td>Marshadow</td><td>Konter</td><td>Nahkampf</td><td>4217</td></tr>
 <tr><td>7</td><td>Hisui-Silvarro</td><td>Psychoklinge</td><td>Aurasphäre</td><td>3275</td></tr>
 <tr><td>8</td><td>Machomei</td><td>Konter</td><td>Wuchtschlag</td><td>3455</td></tr>
 <tr><td>9</td><td>Hariyama</td><td>Kraftwelle</td><td>Wuchtschlag</td><td>3198</td></tr>
-<tr><td>10</td><td>Galar-Zapdos</td><td>Konter</td><td>Nahkampf</td><td>4012</td></tr>
+<tr class="limited"><td>10</td><td>Galar-Zapdos</td><td>Konter</td><td>Nahkampf</td><td>4012</td></tr>
 <tr><td>11</td><td>Masskito</td><td>Konter</td><td>Kraftkoloss</td><td>3912</td></tr>
-<tr><td>12</td><td>Terrakium</td><td>Doppelkick</td><td>Nahkampf</td><td>4181</td></tr>
+<tr class="limited"><td>12</td><td>Terrakium</td><td>Doppelkick</td><td>Nahkampf</td><td>4181</td></tr>
 <tr><td>13</td><td>Kapilz</td><td>Kraftwelle</td><td>Wuchtschlag</td><td>2971</td></tr>
 <tr><td>14</td><td>Resladero</td><td>Fußkick</td><td>Flying Press</td><td>2724</td></tr>
 <tr><td>15</td><td>Quartermak</td><td>Konter</td><td>Kraftkoloss</td><td>3429</td></tr>
@@ -191,23 +199,23 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Rayquaza</td><td>Luftschnitt</td><td>Zenitstürmer</td><td>4336</td></tr>
-<tr><td>2</td><td>Cupidos (Inkarnationsform)</td><td>Feenbrise</td><td>Fliegen</td><td>3873</td></tr>
-<tr><td>3</td><td>Galar-Arktos</td><td>Psychoklinge</td><td>Fliegen</td><td>4059</td></tr>
+<tr class="limited"><td>1</td><td>Rayquaza</td><td>Luftschnitt</td><td>Zenitstürmer</td><td>4336</td></tr>
+<tr class="limited"><td>2</td><td>Cupidos (Inkarnationsform)</td><td>Feenbrise</td><td>Fliegen</td><td>3873</td></tr>
+<tr class="limited"><td>3</td><td>Galar-Arktos</td><td>Psychoklinge</td><td>Fliegen</td><td>4059</td></tr>
 <tr><td>4</td><td>Brutalanda</td><td>Drachenrute</td><td>Fliegen</td><td>4239</td></tr>
 <tr><td>5</td><td>Washakwil</td><td>Luftschnitt</td><td>Fliegen</td><td>3491</td></tr>
-<tr><td>6</td><td>Galar-Zapdos</td><td>Konter</td><td>Fliegen</td><td>4012</td></tr>
+<tr class="limited"><td>6</td><td>Galar-Zapdos</td><td>Konter</td><td>Fliegen</td><td>4012</td></tr>
 <tr><td>7</td><td>Staraptor</td><td>Flügelschlag</td><td>Fliegen</td><td>3194</td></tr>
-<tr><td>8</td><td>Yveltal</td><td>Windstoß</td><td>Orkan</td><td>4275</td></tr>
-<tr><td>9</td><td>Galar-Lavados</td><td>Flügelschlag</td><td>Fliegen</td><td>3580</td></tr>
+<tr class="limited"><td>8</td><td>Yveltal</td><td>Windstoß</td><td>Orkan</td><td>4275</td></tr>
+<tr class="limited"><td>9</td><td>Galar-Lavados</td><td>Flügelschlag</td><td>Fliegen</td><td>3580</td></tr>
 <tr><td>10</td><td>Hisui-Washakwil</td><td>Luftschnitt</td><td>Fliegen</td><td>3181</td></tr>
-<tr><td>11</td><td>Zapdos</td><td>Ladestrahl</td><td>Bohrschnabel</td><td>3987</td></tr>
+<tr class="limited"><td>11</td><td>Zapdos</td><td>Ladestrahl</td><td>Bohrschnabel</td><td>3987</td></tr>
 <tr><td>12</td><td>Kramshef</td><td>Pikser</td><td>Himmelsfeger</td><td>3065</td></tr>
-<tr><td>13</td><td>Boreos (Inkarnationsform)</td><td>Luftschnitt</td><td>Orkan</td><td>3782</td></tr>
+<tr class="limited"><td>13</td><td>Boreos (Inkarnationsform)</td><td>Luftschnitt</td><td>Orkan</td><td>3782</td></tr>
 <tr><td>14</td><td>Fasasnob</td><td>Luftschnitt</td><td>Himmelsfeger</td><td>3091</td></tr>
-<tr><td>15</td><td>Lugia</td><td>Sondersensor</td><td>Fliegen</td><td>4186</td></tr>
+<tr class="limited"><td>15</td><td>Lugia</td><td>Sondersensor</td><td>Fliegen</td><td>4186</td></tr>
 <tr><td>16</td><td>Adebom</td><td>Flügelschlag</td><td>Fliegen</td><td>2812</td></tr>
-<tr><td>17</td><td>Ho-Oh</td><td>Sondersensor</td><td>Sturzflug</td><td>4367</td></tr>
+<tr class="limited"><td>17</td><td>Ho-Oh</td><td>Sondersensor</td><td>Sturzflug</td><td>4367</td></tr>
 <tr><td>18</td><td>Tukanon</td><td>Pikser</td><td>Bohrschnabel</td><td>3040</td></tr>
 <tr><td>19</td><td>Togekiss</td><td>Luftschnitt</td><td>Aero-Ass</td><td>3767</td></tr>
 <tr><td>20</td><td>Dragoran</td><td>Drachenrute</td><td>Orkan</td><td>4287</td></tr>
@@ -221,7 +229,7 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Endynalos</td><td>Gifthieb</td><td>Matschbombe</td><td>5007</td></tr>
+<tr class="limited"><td>1</td><td>Endynalos</td><td>Gifthieb</td><td>Matschbombe</td><td>5007</td></tr>
 <tr><td>2</td><td>Anego</td><td>Gifthieb</td><td>Matschbombe</td><td>4465</td></tr>
 <tr><td>3</td><td>Agoyon</td><td>Gifthieb</td><td>Matschbombe</td><td>3587</td></tr>
 <tr><td>4</td><td>Roserade</td><td>Gifthieb</td><td>Matschbombe</td><td>3359</td></tr>
@@ -251,8 +259,8 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Demeteros (Tiergeistform)</td><td>Lehmschuss</td><td>Erdbeben</td><td>4434</td></tr>
-<tr><td>2</td><td>Groudon</td><td>Lehmschuss</td><td>Erdbeben</td><td>4652</td></tr>
+<tr class="limited"><td>1</td><td>Demeteros (Tiergeistform)</td><td>Lehmschuss</td><td>Erdbeben</td><td>4434</td></tr>
+<tr class="limited"><td>2</td><td>Groudon</td><td>Lehmschuss</td><td>Erdbeben</td><td>4652</td></tr>
 <tr><td>3</td><td>Stalobor</td><td>Lehmschelle</td><td>Brandsand</td><td>3667</td></tr>
 <tr><td>4</td><td>Knakrack</td><td>Lehmschuss</td><td>Erdbeben</td><td>4479</td></tr>
 <tr><td>5</td><td>Rihornior</td><td>Lehmschelle</td><td>Erdbeben</td><td>4221</td></tr>
@@ -282,7 +290,7 @@
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>Rameidon</td><td>Katapult</td><td>Steinhagel</td><td>3728</td></tr>
-<tr><td>2</td><td>Terrakium</td><td>Katapult</td><td>Steinhagel</td><td>4181</td></tr>
+<tr class="limited"><td>2</td><td>Terrakium</td><td>Katapult</td><td>Steinhagel</td><td>4181</td></tr>
 <tr><td>3</td><td>Monargoras</td><td>Steinwurf</td><td>Meteorstrahl</td><td>3537</td></tr>
 <tr><td>4</td><td>Rihornior</td><td>Katapult</td><td>Steinkante</td><td>4221</td></tr>
 <tr><td>5</td><td>Humanolith</td><td>Steinwurf</td><td>Steinhagel</td><td>3638</td></tr>
@@ -296,7 +304,7 @@
 <tr><td>13</td><td>Aeropteryx</td><td>Flügelschlag</td><td>Antik-Kraft</td><td>3766</td></tr>
 <tr><td>14</td><td>Alola-Geowaz</td><td>Steinwurf</td><td>Felswurf</td><td>3334</td></tr>
 <tr><td>15</td><td>Geowaz</td><td>Steinwurf</td><td>Felswurf</td><td>3334</td></tr>
-<tr><td>16</td><td>Wolwerock (Zwielichtform)</td><td>Steinwurf</td><td>Steinkante</td><td>3054</td></tr>
+<tr class="limited"><td>16</td><td>Wolwerock (Zwielichtform)</td><td>Steinwurf</td><td>Steinkante</td><td>3054</td></tr>
 <tr><td>17</td><td>Castellith</td><td>Zornklinge</td><td>Felswerfer</td><td>2874</td></tr>
 <tr><td>18</td><td>Hisui-Arkani</td><td>Standpauke</td><td>Steinhagel</td><td>3556</td></tr>
 <tr><td>19</td><td>Despotar</td><td>Biss</td><td>Steinkante</td><td>4335</td></tr>
@@ -311,8 +319,8 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Ramoth</td><td>Käferbiss</td><td>Käfergebrumm</td><td>4106</td></tr>
-<tr><td>2</td><td>Genesect (Blitzmodul)</td><td>Zornklinge</td><td>Kreuzschere</td><td>3791</td></tr>
+<tr class="limited"><td>1</td><td>Ramoth</td><td>Käferbiss</td><td>Käfergebrumm</td><td>4106</td></tr>
+<tr class="limited"><td>2</td><td>Genesect (Blitzmodul)</td><td>Zornklinge</td><td>Kreuzschere</td><td>3791</td></tr>
 <tr><td>3</td><td>Axantor</td><td>Zornklinge</td><td>Kreuzschere</td><td>3557</td></tr>
 <tr><td>4</td><td>Donarion</td><td>Käferbiss</td><td>Kreuzschere</td><td>3524</td></tr>
 <tr><td>5</td><td>Schabelle</td><td>Käferbiss</td><td>Käfergebrumm</td><td>3213</td></tr>
@@ -341,21 +349,21 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Morgenschwingen-Necrozma</td><td>Psychoklinge</td><td>Schattenstrahl</td><td>4634</td></tr>
-<tr><td>2</td><td>Lunala</td><td>Dunkelklaue</td><td>Spukball</td><td>4570</td></tr>
+<tr class="limited"><td>1</td><td>Morgenschwingen-Necrozma</td><td>Psychoklinge</td><td>Schattenstrahl</td><td>4634</td></tr>
+<tr class="limited"><td>2</td><td>Lunala</td><td>Dunkelklaue</td><td>Spukball</td><td>4570</td></tr>
 <tr><td>3</td><td>Katapuldra</td><td>Erstauner</td><td>Spukball</td><td>3993</td></tr>
-<tr><td>4</td><td>Kopplosio</td><td>Erstauner</td><td>Spukball</td><td>3727</td></tr>
+<tr class="limited"><td>4</td><td>Kopplosio</td><td>Erstauner</td><td>Spukball</td><td>3727</td></tr>
 <tr><td>5</td><td>Monetigo</td><td>Bürde</td><td>Spukball</td><td>3976</td></tr>
 <tr><td>6</td><td>Skelabra</td><td>Bürde</td><td>Spukball</td><td>3695</td></tr>
-<tr><td>7</td><td>Giratina (Urform)</td><td>Dunkelklaue</td><td>Spukball</td><td>4164</td></tr>
-<tr><td>8</td><td>Gebanntes Hoopa</td><td>Erstauner</td><td>Spukball</td><td>3797</td></tr>
+<tr class="limited"><td>7</td><td>Giratina (Urform)</td><td>Dunkelklaue</td><td>Spukball</td><td>4164</td></tr>
+<tr class="limited"><td>8</td><td>Gebanntes Hoopa</td><td>Erstauner</td><td>Spukball</td><td>3797</td></tr>
 <tr><td>9</td><td>Gengar</td><td>Dunkelklaue</td><td>Spukball</td><td>3254</td></tr>
-<tr><td>10</td><td>Mortipot (Fälschungsform)</td><td>Bürde</td><td>Spukball</td><td>3458</td></tr>
+<tr class="limited"><td>10</td><td>Mortipot (Fälschungsform)</td><td>Bürde</td><td>Spukball</td><td>3458</td></tr>
 <tr><td>11</td><td>Hisui-Tornupto</td><td>Bürde</td><td>Spukball</td><td>3385</td></tr>
 <tr><td>12</td><td>Moruda</td><td>Dunkelklaue</td><td>Spukball</td><td>3335</td></tr>
 <tr><td>13</td><td>Hisui-Zoroark</td><td>Dunkelklaue</td><td>Spukball</td><td>2957</td></tr>
 <tr><td>14</td><td>Skelokrok</td><td>Bürde</td><td>Spukball</td><td>3422</td></tr>
-<tr><td>15</td><td>Fatalitcha (Simple Form)</td><td>Erstauner</td><td>Spukball</td><td>3343</td></tr>
+<tr class="limited"><td>15</td><td>Fatalitcha (Simple Form)</td><td>Erstauner</td><td>Spukball</td><td>3343</td></tr>
 <tr><td>16</td><td>Epitaff</td><td>Konter</td><td>Spukball</td><td>3695</td></tr>
 <tr><td>17</td><td>Azugladis</td><td>Glut</td><td>Spukball</td><td>3586</td></tr>
 <tr><td>18</td><td>Trombork</td><td>Dunkelklaue</td><td>Spukball</td><td>2893</td></tr>
@@ -371,14 +379,14 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Zacian (König des Schwertes)</td><td>Metallklaue</td><td>Gigantenhieb</td><td>5629</td></tr>
-<tr><td>2</td><td>Zamazenta (König des Schildes)</td><td>Metallklaue</td><td>Gigantenstoß</td><td>4717</td></tr>
-<tr><td>3</td><td>Abendmähne-Necrozma</td><td>Metallklaue</td><td>Stahlgestirn</td><td>4634</td></tr>
-<tr><td>4</td><td>Dialga</td><td>Metallklaue</td><td>Eisenschädel</td><td>4565</td></tr>
-<tr><td>5</td><td>Genesect (Blitzmodul)</td><td>Metallklaue</td><td>Magnetbombe</td><td>3791</td></tr>
+<tr class="limited"><td>1</td><td>Zacian (König des Schwertes)</td><td>Metallklaue</td><td>Gigantenhieb</td><td>5629</td></tr>
+<tr class="limited"><td>2</td><td>Zamazenta (König des Schildes)</td><td>Metallklaue</td><td>Gigantenstoß</td><td>4717</td></tr>
+<tr class="limited"><td>3</td><td>Abendmähne-Necrozma</td><td>Metallklaue</td><td>Stahlgestirn</td><td>4634</td></tr>
+<tr class="limited"><td>4</td><td>Dialga</td><td>Metallklaue</td><td>Eisenschädel</td><td>4565</td></tr>
+<tr class="limited"><td>5</td><td>Genesect (Blitzmodul)</td><td>Metallklaue</td><td>Magnetbombe</td><td>3791</td></tr>
 <tr><td>6</td><td>Lucario</td><td>Patronenhieb</td><td>Sternenhieb</td><td>3056</td></tr>
 <tr><td>7</td><td>Stalobor</td><td>Metallklaue</td><td>Eisenschädel</td><td>3667</td></tr>
-<tr><td>8</td><td>Jirachi</td><td>Ladestrahl</td><td>Kismetwunsch</td><td>3691</td></tr>
+<tr class="limited"><td>8</td><td>Jirachi</td><td>Ladestrahl</td><td>Kismetwunsch</td><td>3691</td></tr>
 <tr><td>9</td><td>Gladimperio</td><td>Metallklaue</td><td>Eisenschädel</td><td>4086</td></tr>
 <tr><td>10</td><td>Metagross</td><td>Patronenhieb</td><td>Lichtkanone</td><td>4286</td></tr>
 <tr><td>11</td><td>Duraludon</td><td>Metallklaue</td><td>Lichtkanone</td><td>3468</td></tr>
@@ -386,7 +394,7 @@
 <tr><td>13</td><td>Impoleon</td><td>Stahlflügel</td><td>Lichtkanone</td><td>3279</td></tr>
 <tr><td>14</td><td>Stolloss</td><td>Eisenschweif</td><td>Rammboss</td><td>3391</td></tr>
 <tr><td>15</td><td>Scherox</td><td>Patronenhieb</td><td>Eisenschädel</td><td>3393</td></tr>
-<tr><td>16</td><td>Heatran</td><td>Feuerwirbel</td><td>Eisenschädel</td><td>4244</td></tr>
+<tr class="limited"><td>16</td><td>Heatran</td><td>Feuerwirbel</td><td>Eisenschädel</td><td>4244</td></tr>
 <tr><td>17</td><td>Fermicula</td><td>Metallklaue</td><td>Eisenschädel</td><td>3007</td></tr>
 <tr><td>18</td><td>Solgaleo</td><td>Zen-Kopfstoß</td><td>Eisenschädel</td><td>4570</td></tr>
 <tr><td>19</td><td>Knattatox</td><td>Metallsound</td><td>Gyroball</td><td>3337</td></tr>
@@ -401,17 +409,17 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Reshiram</td><td>Feuerzahn</td><td>Hitzekoller</td><td>4565</td></tr>
-<tr><td>2</td><td>Kopplosio</td><td>Einäschern</td><td>Magieflamme</td><td>3727</td></tr>
-<tr><td>3</td><td>Ramoth</td><td>Feuerwirbel</td><td>Hitzekoller</td><td>4106</td></tr>
-<tr><td>4</td><td>Victini</td><td>Ruckzuckhieb</td><td>V-Generator</td><td>3691</td></tr>
-<tr><td>5</td><td>Lavados</td><td>Feuerwirbel</td><td>Hitzekoller</td><td>3917</td></tr>
+<tr class="limited"><td>1</td><td>Reshiram</td><td>Feuerzahn</td><td>Hitzekoller</td><td>4565</td></tr>
+<tr class="limited"><td>2</td><td>Kopplosio</td><td>Einäschern</td><td>Magieflamme</td><td>3727</td></tr>
+<tr class="limited"><td>3</td><td>Ramoth</td><td>Feuerwirbel</td><td>Hitzekoller</td><td>4106</td></tr>
+<tr class="limited"><td>4</td><td>Victini</td><td>Ruckzuckhieb</td><td>V-Generator</td><td>3691</td></tr>
+<tr class="limited"><td>5</td><td>Lavados</td><td>Feuerwirbel</td><td>Hitzekoller</td><td>3917</td></tr>
 <tr><td>6</td><td>Skelabra</td><td>Feuerwirbel</td><td>Hitzekoller</td><td>3695</td></tr>
 <tr><td>7</td><td>Normalmodus Flampivian</td><td>Feuerzahn</td><td>Hitzekoller</td><td>3511</td></tr>
 <tr><td>8</td><td>Flampivian</td><td>Feuerzahn</td><td>Hitzekoller</td><td>3511</td></tr>
-<tr><td>9</td><td>Entei</td><td>Feuerwirbel</td><td>Hitzekoller</td><td>3926</td></tr>
-<tr><td>10</td><td>Heatran</td><td>Feuerwirbel</td><td>Flammenwurf</td><td>4244</td></tr>
-<tr><td>11</td><td>Volcanion</td><td>Einäschern</td><td>Hitzekoller</td><td>4102</td></tr>
+<tr class="limited"><td>9</td><td>Entei</td><td>Feuerwirbel</td><td>Hitzekoller</td><td>3926</td></tr>
+<tr class="limited"><td>10</td><td>Heatran</td><td>Feuerwirbel</td><td>Flammenwurf</td><td>4244</td></tr>
+<tr class="limited"><td>11</td><td>Volcanion</td><td>Einäschern</td><td>Hitzekoller</td><td>4102</td></tr>
 <tr><td>12</td><td>Flamara</td><td>Feuerwirbel</td><td>Hitzekoller</td><td>3424</td></tr>
 <tr><td>13</td><td>Fennexis</td><td>Feuerwirbel</td><td>Magieflamme</td><td>3459</td></tr>
 <tr><td>14</td><td>Lohgock</td><td>Feuerwirbel</td><td>Feuerfeger</td><td>3219</td></tr>
@@ -431,23 +439,23 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Kyogre</td><td>Kaskade</td><td>Surfer</td><td>4652</td></tr>
+<tr class="limited"><td>1</td><td>Kyogre</td><td>Kaskade</td><td>Surfer</td><td>4652</td></tr>
 <tr><td>2</td><td>Kingler</td><td>Blubber</td><td>Krabbhammer</td><td>3198</td></tr>
 <tr><td>3</td><td>Primarene</td><td>Kaskade</td><td>Schaumserenade</td><td>3618</td></tr>
-<tr><td>4</td><td>Volcanion</td><td>Aquaknarre</td><td>Hydropumpe</td><td>4102</td></tr>
+<tr class="limited"><td>4</td><td>Volcanion</td><td>Aquaknarre</td><td>Hydropumpe</td><td>4102</td></tr>
 <tr><td>5</td><td>Tectass</td><td>Kaskade</td><td>Kalkklinge</td><td>3575</td></tr>
 <tr><td>6</td><td>Wummer</td><td>Aquaknarre</td><td>Krabbhammer</td><td>3124</td></tr>
 <tr><td>7</td><td>Garados</td><td>Kaskade</td><td>Hydropumpe</td><td>3834</td></tr>
-<tr><td>8</td><td>Palkia (Urform)</td><td>Drachenrute</td><td>Hydropumpe</td><td>4683</td></tr>
+<tr class="limited"><td>8</td><td>Palkia (Urform)</td><td>Drachenrute</td><td>Hydropumpe</td><td>4683</td></tr>
 <tr><td>9</td><td>Hisui-Admurai</td><td>Kaskade</td><td>Kalkklinge</td><td>3167</td></tr>
 <tr><td>10</td><td>Intelleon</td><td>Aquaknarre</td><td>Surfer</td><td>3351</td></tr>
 <tr><td>11</td><td>Admurai</td><td>Kaskade</td><td>Kalkklinge</td><td>3194</td></tr>
 <tr><td>12</td><td>Krebutack</td><td>Kaskade</td><td>Krabbhammer</td><td>2797</td></tr>
 <tr><td>13</td><td>Bailonda</td><td>Aquaknarre</td><td>Aquadurchstoß</td><td>3411</td></tr>
-<tr><td>14</td><td>Wulaosu (Fließender Stil)</td><td>Kaskade</td><td>Wuchtschlag</td><td>4077</td></tr>
+<tr class="limited"><td>14</td><td>Wulaosu (Fließender Stil)</td><td>Kaskade</td><td>Wuchtschlag</td><td>4077</td></tr>
 <tr><td>15</td><td>Quajutsu</td><td>Wasser-Shuriken</td><td>Surfer</td><td>3001</td></tr>
 <tr><td>16</td><td>Thanathora</td><td>Aquaknarre</td><td>Kalkklinge</td><td>3025</td></tr>
-<tr><td>17</td><td>Keldeo (Resolutform)</td><td>Fußkick</td><td>Hydropumpe</td><td>4181</td></tr>
+<tr class="limited"><td>17</td><td>Keldeo (Resolutform)</td><td>Fußkick</td><td>Hydropumpe</td><td>4181</td></tr>
 <tr><td>18</td><td>Sumpex</td><td>Aquaknarre</td><td>Surfer</td><td>3362</td></tr>
 <tr><td>19</td><td>Aquana</td><td>Aquaknarre</td><td>Hydropumpe</td><td>3521</td></tr>
 <tr><td>20</td><td>Impoleon</td><td>Kaskade</td><td>Hydropumpe</td><td>3279</td></tr>
@@ -461,12 +469,12 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Katagami</td><td>Rasierblatt</td><td>Laubklinge</td><td>4156</td></tr>
-<tr><td>2</td><td>Shaymin (Zenitform)</td><td>Zauberblatt</td><td>Strauchler</td><td>4061</td></tr>
+<tr class="limited"><td>1</td><td>Katagami</td><td>Rasierblatt</td><td>Laubklinge</td><td>4156</td></tr>
+<tr class="limited"><td>2</td><td>Shaymin (Zenitform)</td><td>Zauberblatt</td><td>Strauchler</td><td>4061</td></tr>
 <tr><td>3</td><td>Zarude</td><td>Rankenhieb</td><td>Blattgeißel</td><td>4334</td></tr>
 <tr><td>4</td><td>Gortrom</td><td>Rasierblatt</td><td>Trommelschläge</td><td>3758</td></tr>
 <tr><td>5</td><td>Roserade</td><td>Zauberblatt</td><td>Strauchler</td><td>3359</td></tr>
-<tr><td>6</td><td>Kapu-Toro</td><td>Kugelsaat</td><td>Strauchler</td><td>3865</td></tr>
+<tr class="limited"><td>6</td><td>Kapu-Toro</td><td>Kugelsaat</td><td>Strauchler</td><td>3865</td></tr>
 <tr><td>7</td><td>Tangoloss</td><td>Rankenhieb</td><td>Blattgeißel</td><td>3425</td></tr>
 <tr><td>8</td><td>Fruyal</td><td>Zauberblatt</td><td>Strauchler</td><td>3351</td></tr>
 <tr><td>9</td><td>Maskagato</td><td>Blattwerk</td><td>Strauchler</td><td>3193</td></tr>
@@ -491,21 +499,21 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Voltriant</td><td>Donnerschock</td><td>Ladungsstoß</td><td>4451</td></tr>
-<tr><td>2</td><td>Zekrom</td><td>Ladestrahl</td><td>Stromstoß</td><td>4565</td></tr>
-<tr><td>3</td><td>Voltolos (Tiergeistform)</td><td>Voltwechsel</td><td>Donnerblitz</td><td>4137</td></tr>
-<tr><td>4</td><td>Raikou</td><td>Donnerschock</td><td>Stromstoß</td><td>3902</td></tr>
+<tr class="limited"><td>1</td><td>Voltriant</td><td>Donnerschock</td><td>Ladungsstoß</td><td>4451</td></tr>
+<tr class="limited"><td>2</td><td>Zekrom</td><td>Ladestrahl</td><td>Stromstoß</td><td>4565</td></tr>
+<tr class="limited"><td>3</td><td>Voltolos (Tiergeistform)</td><td>Voltwechsel</td><td>Donnerblitz</td><td>4137</td></tr>
+<tr class="limited"><td>4</td><td>Raikou</td><td>Donnerschock</td><td>Stromstoß</td><td>3902</td></tr>
 <tr><td>5</td><td>Elevoltek</td><td>Donnerschock</td><td>Stromstoß</td><td>3481</td></tr>
 <tr><td>6</td><td>Magnezone</td><td>Voltwechsel</td><td>Stromstoß</td><td>3623</td></tr>
-<tr><td>7</td><td>Zapdos</td><td>Ladestrahl</td><td>Donnerblitz</td><td>3987</td></tr>
-<tr><td>8</td><td>Kapu-Riki</td><td>Voltwechsel</td><td>Donnerblitz</td><td>3582</td></tr>
+<tr class="limited"><td>7</td><td>Zapdos</td><td>Ladestrahl</td><td>Donnerblitz</td><td>3987</td></tr>
+<tr class="limited"><td>8</td><td>Kapu-Riki</td><td>Voltwechsel</td><td>Donnerblitz</td><td>3582</td></tr>
 <tr><td>9</td><td>Luxtra</td><td>Funkensprung</td><td>Stromstoß</td><td>3265</td></tr>
 <tr><td>10</td><td>Pamomamo</td><td>Donnerschock</td><td>Stromstoß</td><td>2978</td></tr>
 <tr><td>11</td><td>Donarion</td><td>Funkensprung</td><td>Ladungsstoß</td><td>3524</td></tr>
 <tr><td>12</td><td>Alola-Geowaz</td><td>Voltwechsel</td><td>Stromstoß</td><td>3334</td></tr>
 <tr><td>13</td><td>Blitza</td><td>Donnerschock</td><td>Donnerblitz</td><td>3265</td></tr>
 <tr><td>14</td><td>Regieleki</td><td>Donnerschock</td><td>Blitzkanone</td><td>3169</td></tr>
-<tr><td>15</td><td>Riffex (Tief-Form)</td><td>Funkensprung</td><td>Stromstoß</td><td>2941</td></tr>
+<tr class="limited"><td>15</td><td>Riffex (Tief-Form)</td><td>Funkensprung</td><td>Stromstoß</td><td>2941</td></tr>
 <tr><td>16</td><td>Voltenso</td><td>Donnerzahn</td><td>Stromstoß</td><td>2646</td></tr>
 <tr><td>17</td><td>Zebritz</td><td>Funkensprung</td><td>Stromstoß</td><td>2745</td></tr>
 <tr><td>18</td><td>Zapplarang</td><td>Funkensprung</td><td>Donnerblitz</td><td>3089</td></tr>
@@ -521,26 +529,26 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Mewtu</td><td>Konfusion</td><td>Psychokinese</td><td>4724</td></tr>
-<tr><td>2</td><td>Entfesseltes Hoopa</td><td>Konfusion</td><td>Psychokinese</td><td>4530</td></tr>
-<tr><td>3</td><td>Abendmähne-Necrozma</td><td>Psychoklinge</td><td>Stahlgestirn</td><td>4634</td></tr>
-<tr><td>4</td><td>Morgenschwingen-Necrozma</td><td>Psychoklinge</td><td>Schattenstrahl</td><td>4634</td></tr>
-<tr><td>5</td><td>Lunala</td><td>Konfusion</td><td>Psychokinese</td><td>4570</td></tr>
-<tr><td>6</td><td>Latios</td><td>Zen-Kopfstoß</td><td>Psychokinese</td><td>4310</td></tr>
-<tr><td>7</td><td>Gebanntes Hoopa</td><td>Konfusion</td><td>Psychokinese</td><td>3797</td></tr>
+<tr class="limited"><td>1</td><td>Mewtu</td><td>Konfusion</td><td>Psychokinese</td><td>4724</td></tr>
+<tr class="limited"><td>2</td><td>Entfesseltes Hoopa</td><td>Konfusion</td><td>Psychokinese</td><td>4530</td></tr>
+<tr class="limited"><td>3</td><td>Abendmähne-Necrozma</td><td>Psychoklinge</td><td>Stahlgestirn</td><td>4634</td></tr>
+<tr class="limited"><td>4</td><td>Morgenschwingen-Necrozma</td><td>Psychoklinge</td><td>Schattenstrahl</td><td>4634</td></tr>
+<tr class="limited"><td>5</td><td>Lunala</td><td>Konfusion</td><td>Psychokinese</td><td>4570</td></tr>
+<tr class="limited"><td>6</td><td>Latios</td><td>Zen-Kopfstoß</td><td>Psychokinese</td><td>4310</td></tr>
+<tr class="limited"><td>7</td><td>Gebanntes Hoopa</td><td>Konfusion</td><td>Psychokinese</td><td>3797</td></tr>
 <tr><td>8</td><td>Metagross</td><td>Zen-Kopfstoß</td><td>Psychokinese</td><td>4286</td></tr>
 <tr><td>9</td><td>Psiana</td><td>Konfusion</td><td>Psychokinese</td><td>3583</td></tr>
-<tr><td>10</td><td>Galar-Arktos</td><td>Konfusion</td><td>Seher</td><td>4059</td></tr>
-<tr><td>11</td><td>Kapu-Fala</td><td>Konfusion</td><td>Seher</td><td>3950</td></tr>
-<tr><td>12</td><td>Meloetta (Gesangsform)</td><td>Konfusion</td><td>Psychoschock</td><td>4490</td></tr>
+<tr class="limited"><td>10</td><td>Galar-Arktos</td><td>Konfusion</td><td>Seher</td><td>4059</td></tr>
+<tr class="limited"><td>11</td><td>Kapu-Fala</td><td>Konfusion</td><td>Seher</td><td>3950</td></tr>
+<tr class="limited"><td>12</td><td>Meloetta (Gesangsform)</td><td>Konfusion</td><td>Psychoschock</td><td>4490</td></tr>
 <tr><td>13</td><td>Galagladi</td><td>Konfusion</td><td>Psychokinese</td><td>3497</td></tr>
 <tr><td>14</td><td>Guardevoir</td><td>Konfusion</td><td>Psychokinese</td><td>3497</td></tr>
-<tr><td>15</td><td>Necrozma</td><td>Psychoklinge</td><td>Seher</td><td>4163</td></tr>
+<tr class="limited"><td>15</td><td>Necrozma</td><td>Psychoklinge</td><td>Seher</td><td>4163</td></tr>
 <tr><td>16</td><td>Kokowei</td><td>Konfusion</td><td>Psychokinese</td><td>3408</td></tr>
-<tr><td>17</td><td>Tobutz</td><td>Konfusion</td><td>Seher</td><td>3629</td></tr>
-<tr><td>18</td><td>Latias</td><td>Zen-Kopfstoß</td><td>Psychokinese</td><td>3968</td></tr>
-<tr><td>19</td><td>Victini</td><td>Konfusion</td><td>Psychokinese</td><td>3691</td></tr>
-<tr><td>20</td><td>Jirachi</td><td>Konfusion</td><td>Psychokinese</td><td>3691</td></tr>
+<tr class="limited"><td>17</td><td>Tobutz</td><td>Konfusion</td><td>Seher</td><td>3629</td></tr>
+<tr class="limited"><td>18</td><td>Latias</td><td>Zen-Kopfstoß</td><td>Psychokinese</td><td>3968</td></tr>
+<tr class="limited"><td>19</td><td>Victini</td><td>Konfusion</td><td>Psychokinese</td><td>3691</td></tr>
+<tr class="limited"><td>20</td><td>Jirachi</td><td>Konfusion</td><td>Psychokinese</td><td>3691</td></tr>
 </tbody>
 </table>
 </div>
@@ -551,8 +559,8 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Weißes Kyurem</td><td>Eiszahn</td><td>Frosthauch</td><td>5206</td></tr>
-<tr><td>2</td><td>Schwarzes Kyurem</td><td>Drachenrute</td><td>Frostvolt</td><td>5206</td></tr>
+<tr class="limited"><td>1</td><td>Weißes Kyurem</td><td>Eiszahn</td><td>Frosthauch</td><td>5206</td></tr>
+<tr class="limited"><td>2</td><td>Schwarzes Kyurem</td><td>Drachenrute</td><td>Frostvolt</td><td>5206</td></tr>
 <tr><td>3</td><td>Espinodon</td><td>Eiszahn</td><td>Lawine</td><td>4013</td></tr>
 <tr><td>4</td><td>Galar-Form Normalmodus Flampivian</td><td>Eiszahn</td><td>Lawine</td><td>3511</td></tr>
 <tr><td>5</td><td>Mamutel</td><td>Pulverschnee</td><td>Lawine</td><td>3763</td></tr>
@@ -564,7 +572,7 @@
 <tr><td>11</td><td>Amagarga</td><td>Eisesodem</td><td>Meteorologe</td><td>3168</td></tr>
 <tr><td>12</td><td>Rossana</td><td>Eisesodem</td><td>Lawine</td><td>2888</td></tr>
 <tr><td>13</td><td>Hisui-Arktilas</td><td>Pulverschnee</td><td>Blizzard</td><td>3909</td></tr>
-<tr><td>14</td><td>Kyurem</td><td>Feuerodem</td><td>Blizzard</td><td>4041</td></tr>
+<tr class="limited"><td>14</td><td>Kyurem</td><td>Feuerodem</td><td>Blizzard</td><td>4041</td></tr>
 <tr><td>15</td><td>Arktos</td><td>Eisesodem</td><td>Dreifach-Axel</td><td>3450</td></tr>
 <tr><td>16</td><td>Mottineva</td><td>Pulverschnee</td><td>Eisstrahl</td><td>3084</td></tr>
 <tr><td>17</td><td>Gelatwino</td><td>Eisesodem</td><td>Blizzard</td><td>3190</td></tr>
@@ -581,26 +589,26 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Schwarzes Kyurem</td><td>Drachenrute</td><td>Wutanfall</td><td>5206</td></tr>
-<tr><td>2</td><td>Palkia (Urform)</td><td>Drachenrute</td><td>Draco Meteor</td><td>4683</td></tr>
+<tr class="limited"><td>1</td><td>Schwarzes Kyurem</td><td>Drachenrute</td><td>Wutanfall</td><td>5206</td></tr>
+<tr class="limited"><td>2</td><td>Palkia (Urform)</td><td>Drachenrute</td><td>Draco Meteor</td><td>4683</td></tr>
 <tr><td>3</td><td>Knakrack</td><td>Drachenrute</td><td>Breitseite</td><td>4479</td></tr>
-<tr><td>4</td><td>Weißes Kyurem</td><td>Feuerodem</td><td>Drachenpuls</td><td>5206</td></tr>
-<tr><td>5</td><td>Rayquaza</td><td>Drachenrute</td><td>Wutanfall</td><td>4336</td></tr>
+<tr class="limited"><td>4</td><td>Weißes Kyurem</td><td>Feuerodem</td><td>Drachenpuls</td><td>5206</td></tr>
+<tr class="limited"><td>5</td><td>Rayquaza</td><td>Drachenrute</td><td>Wutanfall</td><td>4336</td></tr>
 <tr><td>6</td><td>Katapuldra</td><td>Drachenrute</td><td>Breitseite</td><td>3993</td></tr>
 <tr><td>7</td><td>Brutalanda</td><td>Drachenrute</td><td>Draco Meteor</td><td>4239</td></tr>
-<tr><td>8</td><td>Endynalos</td><td>Drachenrute</td><td>Drachenpuls</td><td>5007</td></tr>
-<tr><td>9</td><td>Zekrom</td><td>Feuerodem</td><td>Wutanfall</td><td>4565</td></tr>
-<tr><td>10</td><td>Reshiram</td><td>Feuerodem</td><td>Draco Meteor</td><td>4565</td></tr>
-<tr><td>11</td><td>Dialga</td><td>Feuerodem</td><td>Draco Meteor</td><td>4565</td></tr>
+<tr class="limited"><td>8</td><td>Endynalos</td><td>Drachenrute</td><td>Drachenpuls</td><td>5007</td></tr>
+<tr class="limited"><td>9</td><td>Zekrom</td><td>Feuerodem</td><td>Wutanfall</td><td>4565</td></tr>
+<tr class="limited"><td>10</td><td>Reshiram</td><td>Feuerodem</td><td>Draco Meteor</td><td>4565</td></tr>
+<tr class="limited"><td>11</td><td>Dialga</td><td>Feuerodem</td><td>Draco Meteor</td><td>4565</td></tr>
 <tr><td>12</td><td>Dragoran</td><td>Drachenrute</td><td>Wutanfall</td><td>4287</td></tr>
 <tr><td>13</td><td>Maxax</td><td>Drachenrute</td><td>Drachenklaue</td><td>4062</td></tr>
 <tr><td>14</td><td>Espinodon</td><td>Feuerodem</td><td>Wutanfall</td><td>4013</td></tr>
-<tr><td>15</td><td>Kyurem</td><td>Feuerodem</td><td>Draco Meteor</td><td>4041</td></tr>
-<tr><td>16</td><td>Latios</td><td>Feuerodem</td><td>Drachenklaue</td><td>4310</td></tr>
+<tr class="limited"><td>15</td><td>Kyurem</td><td>Feuerodem</td><td>Draco Meteor</td><td>4041</td></tr>
+<tr class="limited"><td>16</td><td>Latios</td><td>Feuerodem</td><td>Drachenklaue</td><td>4310</td></tr>
 <tr><td>17</td><td>Trikephalo</td><td>Feuerodem</td><td>Drachenpuls</td><td>4098</td></tr>
 <tr><td>18</td><td>Monargoras</td><td>Drachenrute</td><td>Wutanfall</td><td>3537</td></tr>
-<tr><td>19</td><td>Giratina (Urform)</td><td>Drachenrute</td><td>Drachenpuls</td><td>4164</td></tr>
-<tr><td>20</td><td>Latias</td><td>Feuerodem</td><td>Wutanfall</td><td>3968</td></tr>
+<tr class="limited"><td>19</td><td>Giratina (Urform)</td><td>Drachenrute</td><td>Drachenpuls</td><td>4164</td></tr>
+<tr class="limited"><td>20</td><td>Latias</td><td>Feuerodem</td><td>Wutanfall</td><td>3968</td></tr>
 </tbody>
 </table>
 </div>
@@ -612,17 +620,17 @@
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
 <tr><td>1</td><td>Despotar</td><td>Biss</td><td>Wirbler</td><td>4335</td></tr>
-<tr><td>2</td><td>Darkrai</td><td>Standpauke</td><td>Finsteraura</td><td>4227</td></tr>
+<tr class="limited"><td>2</td><td>Darkrai</td><td>Standpauke</td><td>Finsteraura</td><td>4227</td></tr>
 <tr><td>3</td><td>Gladimperio</td><td>Standpauke</td><td>Schmarotzer</td><td>4086</td></tr>
-<tr><td>4</td><td>Yveltal</td><td>Standpauke</td><td>Finsteraura</td><td>4275</td></tr>
+<tr class="limited"><td>4</td><td>Yveltal</td><td>Standpauke</td><td>Finsteraura</td><td>4275</td></tr>
 <tr><td>5</td><td>Fuegro</td><td>Standpauke</td><td>Dark Lariat</td><td>3387</td></tr>
 <tr><td>6</td><td>Snibunna</td><td>Standpauke</td><td>Schmarotzer</td><td>3397</td></tr>
 <tr><td>7</td><td>Trikephalo</td><td>Biss</td><td>Finsteraura</td><td>4098</td></tr>
 <tr><td>8</td><td>Schlingking</td><td>Standpauke</td><td>Wirbler</td><td>3264</td></tr>
-<tr><td>9</td><td>Entfesseltes Hoopa</td><td>Konfusion</td><td>Finsteraura</td><td>4530</td></tr>
-<tr><td>10</td><td>Wulaosu (Fokussierter Stil)</td><td>Tiefschlag</td><td>Gegenstoß</td><td>4077</td></tr>
+<tr class="limited"><td>9</td><td>Entfesseltes Hoopa</td><td>Konfusion</td><td>Finsteraura</td><td>4530</td></tr>
+<tr class="limited"><td>10</td><td>Wulaosu (Fokussierter Stil)</td><td>Tiefschlag</td><td>Gegenstoß</td><td>4077</td></tr>
 <tr><td>11</td><td>Zarude</td><td>Biss</td><td>Finsteraura</td><td>4334</td></tr>
-<tr><td>12</td><td>Olangaar</td><td>Tiefschlag</td><td>Schmarotzer</td><td>3222</td></tr>
+<tr class="limited"><td>12</td><td>Olangaar</td><td>Tiefschlag</td><td>Schmarotzer</td><td>3222</td></tr>
 <tr><td>13</td><td>Zoroark</td><td>Standpauke</td><td>Schmarotzer</td><td>2907</td></tr>
 <tr><td>14</td><td>Hundemon</td><td>Standpauke</td><td>Schmarotzer</td><td>2979</td></tr>
 <tr><td>15</td><td>Kramshef</td><td>Standpauke</td><td>Finsteraura</td><td>3065</td></tr>
@@ -641,21 +649,21 @@
 <table>
 <thead><tr><th>#</th><th>Name</th><th>Fast Attack</th><th>Charged Attack</th><th>Max WP</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Zacian (König des Schwertes)</td><td>Metallklaue</td><td>Knuddler</td><td>5629</td></tr>
-<tr><td>2</td><td>Cupidos (Inkarnationsform)</td><td>Feenbrise</td><td>Zauberschein</td><td>3873</td></tr>
+<tr class="limited"><td>1</td><td>Zacian (König des Schwertes)</td><td>Metallklaue</td><td>Knuddler</td><td>5629</td></tr>
+<tr class="limited"><td>2</td><td>Cupidos (Inkarnationsform)</td><td>Feenbrise</td><td>Zauberschein</td><td>3873</td></tr>
 <tr><td>3</td><td>Guardevoir</td><td>Charme</td><td>Zauberschein</td><td>3497</td></tr>
 <tr><td>4</td><td>Togekiss</td><td>Charme</td><td>Zauberschein</td><td>3767</td></tr>
 <tr><td>5</td><td>Silembrim</td><td>Charme</td><td>Zauberschein</td><td>3198</td></tr>
-<tr><td>6</td><td>Kapu-Toro</td><td>Kugelsaat</td><td>Zauberschein</td><td>3865</td></tr>
-<tr><td>7</td><td>Kapu-Riki</td><td>Voltwechsel</td><td>Zauberschein</td><td>3582</td></tr>
+<tr class="limited"><td>6</td><td>Kapu-Toro</td><td>Kugelsaat</td><td>Zauberschein</td><td>3865</td></tr>
+<tr class="limited"><td>7</td><td>Kapu-Riki</td><td>Voltwechsel</td><td>Zauberschein</td><td>3582</td></tr>
 <tr><td>8</td><td>Feelinara</td><td>Charme</td><td>Zauberschein</td><td>3470</td></tr>
 <tr><td>9</td><td>Primarene</td><td>Charme</td><td>Mondgewalt</td><td>3618</td></tr>
 <tr><td>10</td><td>Granbull</td><td>Charme</td><td>Knuddler</td><td>2885</td></tr>
-<tr><td>11</td><td>Olangaar</td><td>Tiefschlag</td><td>Knuddler</td><td>3222</td></tr>
-<tr><td>12</td><td>Galar-Gallopa</td><td>Feenbrise</td><td>Knuddler</td><td>2782</td></tr>
+<tr class="limited"><td>11</td><td>Olangaar</td><td>Tiefschlag</td><td>Knuddler</td><td>3222</td></tr>
+<tr class="limited"><td>12</td><td>Galar-Gallopa</td><td>Feenbrise</td><td>Knuddler</td><td>2782</td></tr>
 <tr><td>13</td><td>Florges</td><td>Feenbrise</td><td>Mondgewalt</td><td>3657</td></tr>
-<tr><td>14</td><td>Kapu-Fala</td><td>Konfusion</td><td>Mondgewalt</td><td>3950</td></tr>
-<tr><td>15</td><td>Xerneas</td><td>Tackle</td><td>Mondgewalt</td><td>4275</td></tr>
+<tr class="limited"><td>14</td><td>Kapu-Fala</td><td>Konfusion</td><td>Mondgewalt</td><td>3950</td></tr>
+<tr class="limited"><td>15</td><td>Xerneas</td><td>Tackle</td><td>Mondgewalt</td><td>4275</td></tr>
 <tr><td>16</td><td>Pixi</td><td>Charme</td><td>Zauberschein</td><td>2755</td></tr>
 <tr><td>17</td><td>Bandelby</td><td>Charme</td><td>Zauberschein</td><td>2204</td></tr>
 <tr><td>18</td><td>Alola-Vulnona</td><td>Charme</td><td>Zauberschein</td><td>2610</td></tr>

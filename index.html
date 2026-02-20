@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beste Angreifer pro Typ – Pokémon GO</title>
     <style>
         @page {
@@ -17,7 +18,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: clamp(0.688rem, 0.479rem + 0.434vw, 1rem);
+            font-size: clamp(0.7rem, 0.659rem + 0.388vw, 1.125rem);
             color: #1a1a1a;
             background: #fff;
             padding: 8px;
@@ -33,7 +34,7 @@
 
         .subtitle {
             text-align: center;
-            font-size: clamp(0.625rem, 0.375rem + 0.521vw, 1rem);
+            /* font-size: clamp(0.625rem, 0.375rem + 0.521vw, 1rem); */
             color: #666;
             margin-bottom: 16px;
         }
@@ -44,7 +45,7 @@
         }
 
         h2 {
-            font-size: 1rem;
+            /* font-size: 1rem; */
             margin-bottom: 0;
             padding: 5px 8px;
             background: #2d2d2d;
@@ -56,7 +57,7 @@
             width: 100%;
             border-collapse: collapse;
             table-layout: fixed;
-            font-size: clamp(0.625rem, 0.375rem + 0.521vw, 1rem);
+            /* font-size: clamp(0.625rem, 0.375rem + 0.521vw, 1rem); */
         }
 
         thead th {
@@ -131,11 +132,10 @@
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
+        }
 
-            > * {
-                flex: 1;
-                min-width: 23rem;
-            }
+        .info-area__headline {
+            width: 100%;
         }
 
         .legend {
@@ -163,6 +163,13 @@
             body { padding: 0; }
             .type-section { page-break-inside: avoid; }
         }
+
+        @media screen and (min-width: 48em) {
+            .info-area__headline {
+                flex: 1;
+                width: 50%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -171,13 +178,13 @@
 <p class="subtitle">Top 20 pro Typ · Quelle: db.pokemongohub.net · Konfiguration: nur "Allow mixed movesets" aktiv · Stand: 18.02.2026</p>
 
 <div class="info-area">
-    <div>
+    <div class="info-area__headline">
         <h2>System zur benennung</h2>
         <p>Die Benennung setzt sich zusammen aus: S für Stats (Addierte IV Werte), R für Rang in der Tierliste und O für Attacken sind optimiert.</p>
         <p>Beispiel: Atk 15, Def 13, HP 13, Rang 17, Attacken Optimiert -> <strong>s41-r17-o</strong></p>
     </div>
     
-    <div>
+    <div class="info-area__headline">
         <h2>Legende</h2>
         <ul class="legend">
             <li><span class="limited">Limitiert (Raid/Eier)</span></li>
